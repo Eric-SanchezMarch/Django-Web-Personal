@@ -1,0 +1,14 @@
+
+{% extends 'core/base.html' %}
+
+{% block title %}Portada{% endblock %}
+
+<!-- Per error de sintaxis i que carreguin les imatges degudament este template tag s'ha de fer de una sola linea-->
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+
+
+{% block headers %}
+<h1>Eric Sanchez</h1>
+<span class="subheading">Informatico</span>
+{% endblock %}
